@@ -1,0 +1,78 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d1d38e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #3498db;
+  }
+  
+  .input-section {
+    margin-bottom: 15px;
+  }
+  
+  .input-section input {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+  }
+  
+  .unit-selection {
+    margin-bottom: 20px;
+  }
+  
+  .unit-selection input[type="radio"] {
+    margin: 0 10px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .output-section {
+    margin-top: 20px;
+    font-size: 1.3rem;
+  }
+  
+  #output {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
